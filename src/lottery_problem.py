@@ -32,7 +32,7 @@ class LotteryProblem:
         self.total_num_count: int = total_num_count
         self.num_count_in_ticket: int = num_count_in_ticket
         self.num_count_in_draw: int = num_count_in_draw
-        self.min_matched_num_count: int = min_matched_num_count
+   int = min_matched_num_count
 
         self.total_ticket_count: int = math.comb(
             self.total_num_count, self.num_count_in_ticket
